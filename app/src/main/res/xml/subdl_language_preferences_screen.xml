@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="languages"
+        android:title="Languages" />
+
+        android:key="os_info_text"
+        android:title="Info"
+        android:summary="Language info will be shown here." />
+</PreferenceScreen>

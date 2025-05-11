@@ -1,0 +1,10 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="languages"
+        android:title="Languages" />
+    <org.jellyfin.androidtv.onlinesubtitles.preference.widgets.InfoTextPreference
+        android:key="os_info_text"
+        android:title="Info"
+        android:summary="Language info will be shown here." />
+</PreferenceScreen>

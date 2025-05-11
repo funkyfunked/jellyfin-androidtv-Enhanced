@@ -1,0 +1,26 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="os_username"
+        android:title="Username"
+        android:inputType="textEmailAddress" />
+    <EditTextPreference
+        android:key="os_password"
+        android:title="Password"
+        android:inputType="textPassword" />
+    <EditTextPreference
+        android:key="os_api_key"
+        android:title="API Key"
+        android:inputType="text" />
+    <EditTextPreference
+        android:key="os_user_agent"
+        android:title="User Agent"
+        android:inputType="text" />
+    <org.jellyfin.androidtv.onlinesubtitles.preference.widgets.ButtonWithProgressbarPreference
+        android:key="os_login_button"
+        android:title="Login" />
+    <org.jellyfin.androidtv.onlinesubtitles.preference.widgets.InfoTextPreference
+        android:key="os_info_text"
+        android:title="Info"
+        android:summary="Login info will be shown here." />
+</PreferenceScreen>

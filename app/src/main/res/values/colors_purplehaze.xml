@@ -1,0 +1,15 @@
+<resources>
+    <!-- Purple Haze Theme: Deep Blue and Purple Gradient Colors -->
+    <color name="purplehaze_primary">#1A237E</color> <!-- Dark Blue -->
+    <color name="purplehaze_primary_dark">#12002B</color> <!-- Very Dark Blue/Purple -->
+    <color name="purplehaze_accent">#6A1B9A</color> <!-- Deep Purple -->
+    <color name="purplehaze_secondary">#4A148C</color> <!-- Dark Purple -->
+    <color name="purplehaze_background">#12002B</color> <!-- Darkest Background -->
+    <color name="purplehaze_card">#23204A</color> <!-- Card: Blue/Purple -->
+    <color name="purplehaze_text_primary">#FFFFFF</color>
+    <color name="purplehaze_text_secondary">#B39DDB</color> <!-- Muted Purple Text -->
+    <color name="purplehaze_button">#4A148C</color> <!-- Button: Dark Purple -->
+    <color name="purplehaze_button_text">#FFFFFF</color>
+    <color name="purplehaze_surface">#1A1333</color> <!-- Surface: Deep Blue/Purple -->
+    <color name="purplehaze_on_surface">#FFFFFF</color>
+</resources>

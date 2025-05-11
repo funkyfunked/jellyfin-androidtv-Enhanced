@@ -1,0 +1,10 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.jellyfin.androidtv.onlinesubtitles.preference.widgets.InfoTextPreference
+        android:key="os_info_text"
+        android:title="Account Info"
+        android:summary="Your OpenSubtitles account information." />
+    <org.jellyfin.androidtv.onlinesubtitles.preference.widgets.ButtonWithProgressbarPreference
+        android:key="os_logout_button"
+        android:title="Log Out" />
+</PreferenceScreen>

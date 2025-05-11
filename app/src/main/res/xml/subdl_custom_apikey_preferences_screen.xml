@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="subdl_api_key"
+        android:title="SubDL API Key"
+        android:inputType="text" />
+
+        android:key="subdl_save_button"
+        android:title="Save" />
+</PreferenceScreen>

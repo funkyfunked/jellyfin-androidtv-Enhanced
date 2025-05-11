@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="122dp"
+    android:layout_height="wrap_content"
+    android:duplicateParentState="true"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="12dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:stateListAnimator="@animator/focus_transition"
+>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:foreground="@drawable/card_foreground_selector"
+            android:background="@drawable/card_background_selector"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:stateListAnimator="@animator/card_elevation_animator">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_border">
+
+                <org.jellyfin.androidtv.ui.AsyncImageView
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/shimmer_placeholder"
+                    tools:src="@drawable/shimmer_placeholder" />
+            </FrameLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

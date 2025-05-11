@@ -1,0 +1,17 @@
+<resources>
+    <style name="Theme.Jellyfin.PurpleHaze" parent="Theme.Jellyfin">
+        <item name="colorPrimary">@color/purplehaze_primary</item>
+        <item name="colorPrimaryDark">@color/purplehaze_primary_dark</item>
+        <item name="colorAccent">@color/purplehaze_accent</item>
+        <item name="colorSecondary">@color/purplehaze_secondary</item>
+        <item name="android:windowBackground">@color/purplehaze_background</item>
+        <item name="cardBackground">@color/purplehaze_card</item>
+        <item name="textColorPrimary">@color/purplehaze_text_primary</item>
+        <item name="textColorSecondary">@color/purplehaze_text_secondary</item>
+        <item name="buttonBackground">@color/purplehaze_button</item>
+        <item name="buttonTextColor">@color/purplehaze_button_text</item>
+        <item name="surfaceColor">@color/purplehaze_surface</item>
+        <item name="onSurfaceColor">@color/purplehaze_on_surface</item>
+        <item name="cardBorderDrawable">@drawable/purplehaze_card_border</item>
+    </style>
+</resources>

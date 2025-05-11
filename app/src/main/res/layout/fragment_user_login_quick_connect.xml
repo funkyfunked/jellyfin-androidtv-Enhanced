@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:privateImeOptions="horizontalAlignment=center"
+        android:text="@string/login_quickconnect_step_1" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:privateImeOptions="horizontalAlignment=center"
+        android:text="@string/login_quickconnect_step_2" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:privateImeOptions="horizontalAlignment=center"
+        android:text="@string/login_quickconnect_step_3" />
+
+    <TextView
+        android:id="@+id/quick_connect_code"
+        style="@style/TextAppearance.AppCompat.Display3"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:privateImeOptions="horizontalAlignment=center"
+        android:textDirection="ltr" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="400dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DatePickerCustom">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="Widget.Jellyfin.Row.Header" parent="Widget.Leanback.Row.Header">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="Text.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Text.StrokedWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+
+    <style name="player_progress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:minHeight">5sp</item>
+        <item name="android:maxHeight">5sp</item>
+    </style>
+
+    <style name="overlay_progress" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+        <item name="android:minHeight">5sp</item>
+        <item name="android:maxHeight">5sp</item>
+    </style>
+
+    <style name="WindowAnimation"></style>
+
+    <style name="WindowAnimation.SlideTop">
+        <item name="android:windowEnterAnimation">@anim/abc_slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/abc_slide_out_top</item>
+    </style>
+
+    <style name="WindowAnimation.SlideRight">
+        <item name="android:windowEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="WindowAnimation.Fade">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="CenteredInputMethod" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="CircularProfileImage">
+        <item name="android:background">@drawable/circular_profile_border</item>
+        <item name="android:clipToOutline">true</item>
+    </style>
+
+    <style name="Button.Default" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_default_back</item>
+        <item name="android:foreground">@drawable/button_default_ripple</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="drawableTint">@drawable/button_icon_tint</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Button.Icon" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_icon_back</item>
+        <item name="android:foreground">@drawable/button_icon_ripple</item>
+        <item name="android:tint">@drawable/button_icon_tint</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:minHeight">4dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Button.Icon.Animated" parent="Button.Icon">
+        <item name="android:tint">@drawable/button_icon_tint_animated</item>
+    </style>
+
+    <style name="Input.Default" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/input_default_back</item>
+        <item name="android:foreground">@drawable/input_default_ripple</item>
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:textColorHint">@color/input_hint</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="Input.BlackWithWhiteBorder" parent="Input.Default">
+        <item name="android:background">@drawable/input_black_white_border</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+
+    <!-- Consistent card style for dark theme -->
+    <style name="Card.Dark">
+        <item name="android:background">@drawable/card_dark_bg</item>
+        <item name="android:radius">12dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Popup style for dark theme -->
+    <style name="Popup.Dark">
+        <item name="android:background">@drawable/popup_dark_rounded</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:radius">16dp</item>
+    </style>
+
+    <style name="PopupMenu" parent="android:Widget.Material.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_menu_back</item>
+        <item name="android:textColor">@color/indigo_dye</item>
+    </style>
+
+    <style name="PopupWindow" parent="android:Widget.Material.PopupWindow">
+        <item name="android:popupBackground">@drawable/popup_menu_back</item>
+        <item name="android:textColor">@color/indigo_dye</item>
+    </style>
+    <!-- Fallback styles for legacy references -->
+    <style name="Card" parent="Card.Dark" />
+    <style name="Popup" parent="Popup.Dark" />
+    <style name="Text" parent="Text.Secondary" />
+</resources>
