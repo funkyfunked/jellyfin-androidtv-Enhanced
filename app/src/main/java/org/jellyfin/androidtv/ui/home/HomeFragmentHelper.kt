@@ -65,7 +65,7 @@ class HomeFragmentHelper(
     fun loadFavoritesRow(): HomeFragmentRow {
         val query = org.jellyfin.sdk.model.api.request.GetItemsRequest(
             isFavorite = true,
-            sortBy = setOf(ItemSortBy.SORT_NAME),
+            sortBy = setOf(ItemSortBy.DATE_CREATED),
             limit = 20,
             fields = ItemRepository.itemFields,
             recursive = true,
